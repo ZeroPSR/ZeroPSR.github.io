@@ -132,8 +132,9 @@ img {
 }
 
 .logo img {
-    height: 50px;
+    height: 65px;
     width: auto;
+    object-fit: contain;
 }
 
 .logo-text {
@@ -802,8 +803,9 @@ img {
 }
 
 .footer-logo {
-    height: 60px;
+    height: 80px;
     width: auto;
+    object-fit: contain;
 }
 
 .footer-brand h3 {
@@ -983,6 +985,27 @@ img {
     
     .mobile-menu-toggle.active span:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -7px);
+    }
+    
+    /* Mobile-specific font size adjustments for hero section */
+    .logo-name {
+        font-size: 1rem;
+    }
+    
+    .logo-tagline {
+        font-size: 0.65rem;
+    }
+    
+    .hero-headline {
+        font-size: 1.75rem;
+    }
+    
+    .hero-subheadline {
+        font-size: 1rem;
+    }
+    
+    .hero-support {
+        font-size: 0.85rem;
     }
     
     .hero-ctas {
